@@ -1,8 +1,6 @@
 # IOSSecuritySuite
 For security
 
-BSD 2-Clause License
-
 Copyright (c) 2019, SecuRing spółka z ograniczoną odpowiedzialnością spółka jawna (created by Wojciech Reguła (_r3ggi))
 All rights reserved.
 
