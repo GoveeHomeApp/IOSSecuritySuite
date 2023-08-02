@@ -1,0 +1,32 @@
+{
+  "name": "IOSSecuritySuite",
+  "version": "1.9.9",
+  "summary": "iOS platform security & anti-tampering Swift library",
+  "homepage": "https://github.com/securing/IOSSecuritySuite",
+  "license": "bsd-2-clause",
+  "authors": "Wojciech Reguła",
+  "social_media_url": "https://twitter.com/_r3ggi",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "ios": {
+    "frameworks": [
+      "UIKit",
+      "Foundation"
+    ],
+    "public_header_files": "IOSSecuritySuite.xcframework/ios-arm64/*/Headers/*.h",
+    "source_files": "IOSSecuritySuite.xcframework/ios-arm64/*/Headers/*.h"
+  },
+  "source": {
+    "git": "git@github.com:GoveeHomeApp/IOSSecuritySuite.git",
+    "tag": "1.9.9"
+  },
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "5.0"
+  },
+  "swift_version": "5.0",
+  "vendored_frameworks": "IOSSecuritySuite.xcframework"
+}
